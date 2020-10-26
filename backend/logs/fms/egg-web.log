@@ -1,0 +1,30 @@
+2020-10-26 09:52:46,908 INFO 3410 [egg:logger] init all loggers with options: {"dir":"/Users/snail/alibaba/fms/logs/fms","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"fms-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-10-26 09:52:46,930 INFO 3410 [egg-multipart] stream mode enable
+2020-10-26 09:52:46,994 INFO 3410 [egg-static] starting static serve /public/ -> /Users/snail/alibaba/fms/app/public
+2020-10-26 09:52:46,996 INFO 3410 [egg-security] use csrf middleware
+2020-10-26 09:52:46,996 INFO 3410 [egg-security] use methodnoallow middleware
+2020-10-26 09:52:46,997 INFO 3410 [egg-security] use noopen middleware
+2020-10-26 09:52:46,997 INFO 3410 [egg-security] use nosniff middleware
+2020-10-26 09:52:46,998 INFO 3410 [egg-security] use xssProtection middleware
+2020-10-26 09:52:46,998 INFO 3410 [egg-security] use xframe middleware
+2020-10-26 09:52:46,998 INFO 3410 [egg-security] use dta middleware
+2020-10-26 09:52:46,998 INFO 3410 [egg-security] compose 7 middlewares into one security middleware
+2020-10-26 09:52:47,005 INFO 3410 [egg:core] dump config after load, 3ms
+2020-10-26 09:52:47,016 INFO 3410 [egg-watcher:application] watcher start success
+2020-10-26 09:52:47,023 INFO 3410 [egg:core] dump config after ready, 5ms
+2020-10-26 09:54:53,818 INFO 4302 [egg:logger] init all loggers with options: {"dir":"/Users/snail/alibaba/fms/backend/logs/fms","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"fms-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-10-26 09:54:53,839 INFO 4302 [egg-multipart] stream mode enable
+2020-10-26 09:54:53,903 INFO 4302 [egg-static] starting static serve /public/ -> /Users/snail/alibaba/fms/backend/app/public
+2020-10-26 09:54:53,905 INFO 4302 [egg-security] use csrf middleware
+2020-10-26 09:54:53,906 INFO 4302 [egg-security] use methodnoallow middleware
+2020-10-26 09:54:53,906 INFO 4302 [egg-security] use noopen middleware
+2020-10-26 09:54:53,907 INFO 4302 [egg-security] use nosniff middleware
+2020-10-26 09:54:53,907 INFO 4302 [egg-security] use xssProtection middleware
+2020-10-26 09:54:53,907 INFO 4302 [egg-security] use xframe middleware
+2020-10-26 09:54:53,908 INFO 4302 [egg-security] use dta middleware
+2020-10-26 09:54:53,908 INFO 4302 [egg-security] compose 7 middlewares into one security middleware
+2020-10-26 09:54:53,915 INFO 4302 [egg:core] dump config after load, 3ms
+2020-10-26 09:54:53,925 INFO 4302 [egg-watcher:application] watcher start success
+2020-10-26 09:54:53,931 INFO 4302 [egg:core] dump config after ready, 4ms
+2020-10-26 12:18:58,612 WARN 4302 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-10-26 13:35:24,579 WARN 4302 [ClusterClient:Watcher] follower closed, and try to init it again

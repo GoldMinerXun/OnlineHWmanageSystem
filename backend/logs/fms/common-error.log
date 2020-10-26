@@ -1,0 +1,16 @@
+2020-10-26 12:18:58,613 ERROR 4284 nodejs.ClusterClientNoResponseError: client no response in 1983956ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/snail/alibaba/fms/backend/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 4284
+hostname: snaildeMacBook-Pro.local
+
+2020-10-26 13:35:24,579 ERROR 4284 nodejs.ClusterClientNoResponseError: client no response in 4545947ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/snail/alibaba/fms/backend/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 4284
+hostname: snaildeMacBook-Pro.local
+

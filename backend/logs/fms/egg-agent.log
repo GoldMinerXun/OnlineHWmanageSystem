@@ -1,0 +1,37 @@
+2020-10-26 09:52:46,138 INFO 3409 [egg:logger] init all loggers with options: {"dir":"/Users/snail/alibaba/fms/logs/fms","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"fms-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-10-26 09:52:46,145 INFO 3409 [egg:core] dump config after load, 3ms
+2020-10-26 09:52:46,179 INFO 3409 [egg-watcher] Start watching: ["/Users/snail/alibaba/fms/app","/Users/snail/alibaba/fms/config","/Users/snail/alibaba/fms/mocks","/Users/snail/alibaba/fms/mocks_proxy","/Users/snail/alibaba/fms/app.js"]
+2020-10-26 09:52:46,179 INFO 3409 [egg-watcher] Start watching: "/Users/snail/alibaba/fms/app"
+2020-10-26 09:52:46,179 INFO 3409 [egg-watcher] Start watching: "/Users/snail/alibaba/fms/config"
+2020-10-26 09:52:46,179 INFO 3409 [egg-watcher] Start watching: "/Users/snail/alibaba/fms/mocks"
+2020-10-26 09:52:46,179 INFO 3409 [egg-watcher] Start watching: "/Users/snail/alibaba/fms/mocks_proxy"
+2020-10-26 09:52:46,179 INFO 3409 [egg-watcher] Start watching: "/Users/snail/alibaba/fms/app.js"
+2020-10-26 09:52:46,180 INFO 3409 [egg-watcher:agent] watcher start success
+2020-10-26 09:52:46,191 INFO 3409 [egg:core] dump config after ready, 5ms
+2020-10-26 09:52:47,006 INFO 3409 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/snail/alibaba/fms/app/public","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":35349325,"size":64,"blocks":0,"atimeMs":1603677166993.9568,"mtimeMs":1603677166993.9568,"ctimeMs":1603677166993.9568,"birthtimeMs":1603677166993.9568,"atime":"2020-10-26T01:52:46.994Z","mtime":"2020-10-26T01:52:46.994Z","ctime":"2020-10-26T01:52:46.994Z","birthtime":"2020-10-26T01:52:46.994Z"},"remove":false,"isDirectory":true,"isFile":false}
+2020-10-26 09:54:53,032 INFO 4284 [egg:logger] init all loggers with options: {"dir":"/Users/snail/alibaba/fms/backend/logs/fms","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"fms-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-10-26 09:54:53,039 INFO 4284 [egg:core] dump config after load, 3ms
+2020-10-26 09:54:53,076 INFO 4284 [egg-watcher] Start watching: ["/Users/snail/alibaba/fms/backend/app","/Users/snail/alibaba/fms/backend/config","/Users/snail/alibaba/fms/backend/mocks","/Users/snail/alibaba/fms/backend/mocks_proxy","/Users/snail/alibaba/fms/backend/app.js"]
+2020-10-26 09:54:53,076 INFO 4284 [egg-watcher] Start watching: "/Users/snail/alibaba/fms/backend/app"
+2020-10-26 09:54:53,076 INFO 4284 [egg-watcher] Start watching: "/Users/snail/alibaba/fms/backend/config"
+2020-10-26 09:54:53,076 INFO 4284 [egg-watcher] Start watching: "/Users/snail/alibaba/fms/backend/mocks"
+2020-10-26 09:54:53,076 INFO 4284 [egg-watcher] Start watching: "/Users/snail/alibaba/fms/backend/mocks_proxy"
+2020-10-26 09:54:53,076 INFO 4284 [egg-watcher] Start watching: "/Users/snail/alibaba/fms/backend/app.js"
+2020-10-26 09:54:53,076 INFO 4284 [egg-watcher:agent] watcher start success
+2020-10-26 09:54:53,099 INFO 4284 [egg:core] dump config after ready, 4ms
+2020-10-26 12:18:58,615 ERROR 4284 nodejs.ClusterClientNoResponseError: client no response in 1983956ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/snail/alibaba/fms/backend/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 4284
+hostname: snaildeMacBook-Pro.local
+
+2020-10-26 13:35:24,579 ERROR 4284 nodejs.ClusterClientNoResponseError: client no response in 4545947ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/snail/alibaba/fms/backend/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 4284
+hostname: snaildeMacBook-Pro.local
+

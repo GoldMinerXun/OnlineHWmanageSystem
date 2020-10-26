@@ -1,0 +1,12 @@
+2020-10-26 09:52:47,029 INFO 3409 [Timer] /Users/snail/alibaba/fms/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 67032974ms at 2020-10-27 04:30:00.003
+2020-10-26 09:52:47,029 INFO 3409 [Timer] /Users/snail/alibaba/fms/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 50832971ms at 2020-10-27 00:00:00.000
+2020-10-26 09:52:47,029 INFO 3409 [Timer] /Users/snail/alibaba/fms/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 50833971ms at 2020-10-27 00:00:01.000
+2020-10-26 09:52:46,929 INFO 3410 [egg-schedule]: register schedule /Users/snail/alibaba/fms/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-26 09:52:46,929 INFO 3410 [egg-schedule]: register schedule /Users/snail/alibaba/fms/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-26 09:52:46,929 INFO 3410 [egg-schedule]: register schedule /Users/snail/alibaba/fms/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-26 09:54:53,937 INFO 4284 [Timer] /Users/snail/alibaba/fms/backend/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 66906066ms at 2020-10-27 04:30:00.003
+2020-10-26 09:54:53,937 INFO 4284 [Timer] /Users/snail/alibaba/fms/backend/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 50706063ms at 2020-10-27 00:00:00.000
+2020-10-26 09:54:53,937 INFO 4284 [Timer] /Users/snail/alibaba/fms/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 50707063ms at 2020-10-27 00:00:01.000
+2020-10-26 09:54:53,839 INFO 4302 [egg-schedule]: register schedule /Users/snail/alibaba/fms/backend/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-26 09:54:53,839 INFO 4302 [egg-schedule]: register schedule /Users/snail/alibaba/fms/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-26 09:54:53,839 INFO 4302 [egg-schedule]: register schedule /Users/snail/alibaba/fms/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js

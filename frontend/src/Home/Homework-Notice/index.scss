@@ -1,0 +1,37 @@
+.homework-notice-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  .filter-wrap{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      .ant-input-search{
+          width: 300px;
+      }
+      .order-wrap{
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          align-items: center;
+        //  width: 500px;
+        .order-item{
+            margin-right: 10px;
+        }
+      }
+  }
+  .notice-list {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    .notice-item {
+      margin-right: 20px;
+      .progress {
+        color: #999;
+      }
+    }
+  }
+}
