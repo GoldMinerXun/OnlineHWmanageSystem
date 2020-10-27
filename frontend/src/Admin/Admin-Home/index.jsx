@@ -10,7 +10,8 @@ import {
     BellOutlined,
     QuestionCircleOutlined,
 } from '@ant-design/icons';
-import AdminPublish from '../Admin-Publish/index'
+import AdminPublish from '../Admin-Publish/index';
+import AdminData from '../Admin-Data/index';
 import moment from 'moment';
 import './index.scss';
 
@@ -37,7 +38,7 @@ export default class Admin extends React.Component {
             })
         } else if (e.key === '2') {
             this.setState({
-                content: null
+                content: <AdminData/>
             })
         } else if (e.key === '3') {
             this.setState({
