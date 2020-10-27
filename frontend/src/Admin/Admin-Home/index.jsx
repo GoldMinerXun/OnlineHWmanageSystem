@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layout, Menu, Skeleton ,Badge,} from 'antd';
+import { Layout, Menu, Skeleton, Badge, } from 'antd';
 import {
     MenuUnfoldOutlined,
     MenuFoldOutlined,
@@ -10,19 +10,17 @@ import {
     BellOutlined,
     QuestionCircleOutlined,
 } from '@ant-design/icons';
-import HomeworkNotice from '../Homework-Notice/index';
-import MyData from '../My-Data/index';
-import MyZone from '../My-Zone/index';
+import AdminPublish from '../Admin-Publish/index'
 import moment from 'moment';
 import './index.scss';
 
 const { Header, Sider, Content } = Layout;
 const ANNOUNCEMENT = '公告：本网站诚招维护人，有意者联系178977641@qq.com';
 
-export default class Home extends React.Component {
+export default class Admin extends React.Component {
     state = {
         collapsed: false,
-        content: <HomeworkNotice />,
+        content: <AdminPublish />,
     };
 
     componentDidMount() {
@@ -35,16 +33,15 @@ export default class Home extends React.Component {
     onSelect = (e) => {
         if (e.key === '1') {
             this.setState({
-                content: <HomeworkNotice />
+                content: <AdminPublish />
             })
         } else if (e.key === '2') {
             this.setState({
-                content: <MyData />
+                content: null
             })
         } else if (e.key === '3') {
-            console.log(1111)
             this.setState({
-                content: <MyZone />
+                content: null
             })
         }
     }
@@ -57,13 +54,13 @@ export default class Home extends React.Component {
                     <div className="logo">Homework Management</div>
                     <Menu theme="light" mode="inline" defaultSelectedKeys={['1']} onSelect={(e) => this.onSelect(e)}>
                         <Menu.Item key="1" icon={<UserOutlined />}>
-                            我的作业
+                            我的发布
             </Menu.Item>
                         <Menu.Item key="2" icon={< PieChartOutlined />}>
-                            我的数据
+                            班级数据
             </Menu.Item>
                         <Menu.Item key="3" icon={<SettingOutlined />}>
-                            我的主页
+                            班级主页
             </Menu.Item>
                     </Menu>
                 </Sider>
@@ -79,12 +76,12 @@ export default class Home extends React.Component {
                                 今天是 {moment().format('YYYY-MM-DD')}
                             </span>
                             <span className="right-menu-item">
-                                <a href="#"><QuestionCircleOutlined /></a> 
+                                <a href="#"><QuestionCircleOutlined /></a>
                             </span>
                             <span className="right-menu-item"><Badge size="small" count={5}>
                                 <a href="#">  <BellOutlined /></a>
                             </Badge></span>
-                            
+
                         </div>
                     </Header>
                     <Content

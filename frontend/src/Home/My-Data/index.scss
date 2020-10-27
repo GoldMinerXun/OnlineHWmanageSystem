@@ -1,0 +1,14 @@
+.my-data-wrap {
+  width: 100%;
+  .active-data {
+    width: 100%;
+    .active-list {
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+      padding: 20px 40px ;
+      .active-data-item{
+      }
+    }
+  }
+}

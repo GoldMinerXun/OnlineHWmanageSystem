@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
 import App from './Login/login';
-import Home from './Home/Home-wrap'
+import Home from './Home/Home-wrap';
+import Admin from './Admin/Admin-Home';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home />
+    <Admin />
   </React.StrictMode>,
   document.getElementById("root")
 );

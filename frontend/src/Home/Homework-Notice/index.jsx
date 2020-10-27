@@ -1,9 +1,26 @@
 import React from 'react';
-import { Card, Progress, Input, Select, Form } from 'antd';
+import { Card, Progress, Input, Select, Form, Upload, message } from 'antd';
 import './index.scss'
 
 const { Search } = Input;
 const { Option } = Select;
+const uploadProps = {
+    name: 'file',
+    action: 'https://www.mocky.io/v2/5cc8019d300000980a055e76',
+    headers: {
+        authorization: 'authorization-text',
+    },
+    onChange(info) {
+        if (info.file.status !== 'uploading') {
+            console.log(info.file, info.fileList);
+        }
+        if (info.file.status === 'done') {
+            message.success(`${info.file.name} file uploaded successfully`);
+        } else if (info.file.status === 'error') {
+            message.error(`${info.file.name} file upload failed.`);
+        }
+    },
+}
 export default class HomeworkNotice extends React.Component {
     state = {
         noticeArray: [{
@@ -25,7 +42,7 @@ export default class HomeworkNotice extends React.Component {
         }],
         orderBy: 'endTime'
     }
-    handleSizeChange (e){
+    handleSizeChange(e) {
         console.log(e)
 
     }
@@ -42,8 +59,9 @@ export default class HomeworkNotice extends React.Component {
                         <Form.Item className="order-item">
                             <Select defaultValue="positive" name="endTime" onChange={(e) => {
                                 this.setState({
-                                    endTime:e==='positive'?true:false
-                            }) }}>
+                                    endTime: e === 'positive' ? true : false
+                                })
+                            }}>
                                 <Option value="positive">截止时间正序</Option>
                                 <Option value="reverse">截止时间倒序</Option>
                             </Select>
@@ -84,7 +102,7 @@ export default class HomeworkNotice extends React.Component {
                 <div className="notice-list">
                     {
                         noticeArray.map(item => {
-                            return <Card className="notice-item" title={item.title} extra={<a index={item.id} onClick={this.uploadFile}>快速提交</a>} style={{ width: 300 }}>
+                            return <Card className="notice-item" title={item.title} style={{ width: 300 }}>
                                 <p>开始时间：{item.content.startTime}</p>
                                 <p>截止时间：{item.content.endTime}</p>
                                 <p className="progress-wrap">
@@ -93,11 +111,13 @@ export default class HomeworkNotice extends React.Component {
                                </span>
                                     <Progress percent={item.content.classProgress} status="active" />
                                 </p>
+                                <p><Upload {...uploadProps}>
+                                    <a index={item.id} onClick={this.uploadFile}>快速提交</a>
+                                </Upload></p>
                             </Card>
                         })
                     }
                 </div>
-
             </div>
 
         )
