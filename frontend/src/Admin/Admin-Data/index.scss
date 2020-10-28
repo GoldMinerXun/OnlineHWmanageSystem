@@ -10,4 +10,29 @@
         margin-right: 20px;
     }
   }
+  .data-body{
+      .data-ranklist{
+          margin-top: 20px;
+          p{
+              font-weight: 500;
+              font-size: 16px;
+          }
+          .list{
+              list-style: none;
+              padding-left: 0px;
+              li{
+                  width: 300px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  margin-top: 14px;
+                  .left{
+                      .avatar-wrap{
+                          margin-right: 20px;
+                      }
+                  }
+              }
+          }
+      }
+  }
 }

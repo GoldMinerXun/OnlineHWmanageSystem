@@ -12,6 +12,12 @@ export default class AdminData extends React.Component{
             }, {
                 name: '小缸',
                 sno: '1704010810'
+            },  {
+                name: '七七',
+                sno: '1704010813'
+            }, {
+                name: '糊糊',
+                sno: '1704010802'
             }]
     }
     render() {
@@ -28,12 +34,15 @@ export default class AdminData extends React.Component{
                 </div>
                 <div className='data-body'>
                     <div className="data-ranklist">
-                        <ul>
+                        <p>作业积极排行</p>
+                        <ul className="list">
                             {
                                 rankData.map((item,index) => {
                                     return <li>
-                                        < Avatar style={{ color: '#f56a00', backgroundColor: '#fde3cf' }}>{index + 1}</Avatar> 
-                                        <span>{item.name}</span>
+                                        <div className="left">
+                                            < Avatar size="small" className="avatar-wrap" style={{ color: '#fff', backgroundColor: '#69c0ff' }}>{index + 1}</Avatar>
+                                            <span>{item.name}</span>
+                                        </div>
                                         <span>{item.sno}</span>
                                         
                                     </li>

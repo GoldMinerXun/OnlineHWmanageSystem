@@ -1,0 +1,15 @@
+.admin-class {
+  width: 100%;
+  .admin-uploader{
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      .download{
+          margin-left: 20px;
+      }
+  }
+  .stu-table {
+    margin-top: 20px;
+  }
+}
