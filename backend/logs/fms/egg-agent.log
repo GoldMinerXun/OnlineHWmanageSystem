@@ -35,3 +35,13 @@ name: "ClusterClientNoResponseError"
 pid: 4284
 hostname: snaildeMacBook-Pro.local
 
+2020-10-28 17:29:23,528 INFO 28848 [egg:logger] init all loggers with options: {"dir":"/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/logs/fms","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"fms-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-10-28 17:29:23,537 INFO 28848 [egg:core] dump config after load, 5ms
+2020-10-28 17:29:23,574 INFO 28848 [egg-watcher] Start watching: ["/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/app","/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/config","/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/mocks","/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/mocks_proxy","/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/app.js"]
+2020-10-28 17:29:23,574 INFO 28848 [egg-watcher] Start watching: "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/app"
+2020-10-28 17:29:23,574 INFO 28848 [egg-watcher] Start watching: "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/config"
+2020-10-28 17:29:23,575 INFO 28848 [egg-watcher] Start watching: "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/mocks"
+2020-10-28 17:29:23,575 INFO 28848 [egg-watcher] Start watching: "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/mocks_proxy"
+2020-10-28 17:29:23,575 INFO 28848 [egg-watcher] Start watching: "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/app.js"
+2020-10-28 17:29:23,575 INFO 28848 [egg-watcher:agent] watcher start success
+2020-10-28 17:29:23,589 INFO 28848 [egg:core] dump config after ready, 4ms

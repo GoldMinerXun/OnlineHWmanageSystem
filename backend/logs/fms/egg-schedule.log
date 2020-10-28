@@ -10,3 +10,9 @@
 2020-10-26 09:54:53,839 INFO 4302 [egg-schedule]: register schedule /Users/snail/alibaba/fms/backend/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
 2020-10-26 09:54:53,839 INFO 4302 [egg-schedule]: register schedule /Users/snail/alibaba/fms/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
 2020-10-26 09:54:53,839 INFO 4302 [egg-schedule]: register schedule /Users/snail/alibaba/fms/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-28 17:29:24,475 INFO 28856 [egg-schedule]: register schedule /Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-28 17:29:24,475 INFO 28856 [egg-schedule]: register schedule /Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-28 17:29:24,475 INFO 28856 [egg-schedule]: register schedule /Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-28 17:29:24,620 INFO 28848 [Timer] /Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 39635383ms at 2020-10-29 04:30:00.003
+2020-10-28 17:29:24,620 INFO 28848 [Timer] /Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 23435380ms at 2020-10-29 00:00:00.000
+2020-10-28 17:29:24,620 INFO 28848 [Timer] /Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 23436380ms at 2020-10-29 00:00:01.000

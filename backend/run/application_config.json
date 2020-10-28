@@ -88,25 +88,26 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "/Users/snail/alibaba/fms/backend/node_modules/egg-onerror/lib/onerror_page.mustache"
+      "templatePath": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "/Users/snail/alibaba/fms/backend/node_modules/egg-session/config/locales",
-        "/Users/snail/alibaba/fms/backend/node_modules/egg-security/config/locales",
-        "/Users/snail/alibaba/fms/backend/node_modules/egg-jsonp/config/locales",
-        "/Users/snail/alibaba/fms/backend/node_modules/egg-onerror/config/locales",
-        "/Users/snail/alibaba/fms/backend/node_modules/egg-i18n/config/locales",
-        "/Users/snail/alibaba/fms/backend/node_modules/egg-watcher/config/locales",
-        "/Users/snail/alibaba/fms/backend/node_modules/egg-schedule/config/locales",
-        "/Users/snail/alibaba/fms/backend/node_modules/egg-multipart/config/locales",
-        "/Users/snail/alibaba/fms/backend/node_modules/egg-development/config/locales",
-        "/Users/snail/alibaba/fms/backend/node_modules/egg-logrotator/config/locales",
-        "/Users/snail/alibaba/fms/backend/node_modules/egg-static/config/locales",
-        "/Users/snail/alibaba/fms/backend/node_modules/egg-view/config/locales",
-        "/Users/snail/alibaba/fms/backend/node_modules/egg/config/locales",
-        "/Users/snail/alibaba/fms/backend/config/locales"
+        "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-session/config/locales",
+        "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-security/config/locales",
+        "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-jsonp/config/locales",
+        "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-onerror/config/locales",
+        "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-i18n/config/locales",
+        "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-watcher/config/locales",
+        "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-schedule/config/locales",
+        "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-multipart/config/locales",
+        "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-development/config/locales",
+        "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-logrotator/config/locales",
+        "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-static/config/locales",
+        "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-view/config/locales",
+        "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-socket.io/config/locales",
+        "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/locales",
+        "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/config/locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -117,8 +118,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/snail/alibaba/fms/backend/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Users/snail/alibaba/fms/backend/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "customLogger": {
@@ -165,18 +166,30 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/snail/alibaba/fms/backend/app/public",
+      "dir": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "/Users/snail/alibaba/fms/backend/app/view",
+      "root": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/app/view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
       "mapping": {}
+    },
+    "io": {
+      "init": {
+        "path": "/socket.io",
+        "allowRequest": "<Function bound >"
+      },
+      "namespace": {
+        "/": {
+          "connectionMiddleware": [],
+          "packetMiddleware": []
+        }
+      }
     },
     "env": "local",
     "name": "fms",
@@ -198,7 +211,8 @@
       },
       "dependencies": {
         "egg": "^2.15.1",
-        "egg-scripts": "^2.11.0"
+        "egg-scripts": "^2.11.0",
+        "egg-socket.io": "^4.1.6"
       },
       "devDependencies": {
         "autod": "^3.0.1",
@@ -234,9 +248,9 @@
       "author": "star",
       "license": "MIT"
     },
-    "baseDir": "/Users/snail/alibaba/fms/backend",
+    "baseDir": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend",
     "HOME": "/Users/snail",
-    "rundir": "/Users/snail/alibaba/fms/backend/run",
+    "rundir": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -268,7 +282,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/Users/snail/alibaba/fms/backend/logs/fms",
+      "dir": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/logs/fms",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -363,8 +377,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/plugin.js",
-      "path": "/Users/snail/alibaba/fms/backend/node_modules/egg-onerror",
+      "from": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/plugin.js",
+      "path": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-onerror",
       "version": "2.1.0"
     },
     "session": {
@@ -374,8 +388,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/plugin.js",
-      "path": "/Users/snail/alibaba/fms/backend/node_modules/egg-session",
+      "from": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/plugin.js",
+      "path": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-session",
       "version": "3.2.0"
     },
     "i18n": {
@@ -385,8 +399,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/plugin.js",
-      "path": "/Users/snail/alibaba/fms/backend/node_modules/egg-i18n",
+      "from": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/plugin.js",
+      "path": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -396,8 +410,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/plugin.js",
-      "path": "/Users/snail/alibaba/fms/backend/node_modules/egg-watcher",
+      "from": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/plugin.js",
+      "path": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-watcher",
       "version": "3.1.1"
     },
     "multipart": {
@@ -409,8 +423,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/plugin.js",
-      "path": "/Users/snail/alibaba/fms/backend/node_modules/egg-multipart",
+      "from": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/plugin.js",
+      "path": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-multipart",
       "version": "2.10.3"
     },
     "security": {
@@ -422,8 +436,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/plugin.js",
-      "path": "/Users/snail/alibaba/fms/backend/node_modules/egg-security",
+      "from": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/plugin.js",
+      "path": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-security",
       "version": "2.8.0"
     },
     "development": {
@@ -437,8 +451,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/plugin.js",
-      "path": "/Users/snail/alibaba/fms/backend/node_modules/egg-development",
+      "from": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/plugin.js",
+      "path": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-development",
       "version": "2.7.0"
     },
     "logrotator": {
@@ -450,8 +464,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/plugin.js",
-      "path": "/Users/snail/alibaba/fms/backend/node_modules/egg-logrotator",
+      "from": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/plugin.js",
+      "path": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-logrotator",
       "version": "3.1.0"
     },
     "schedule": {
@@ -461,8 +475,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/plugin.js",
-      "path": "/Users/snail/alibaba/fms/backend/node_modules/egg-schedule",
+      "from": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/plugin.js",
+      "path": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-schedule",
       "version": "3.6.6"
     },
     "static": {
@@ -472,8 +486,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/plugin.js",
-      "path": "/Users/snail/alibaba/fms/backend/node_modules/egg-static",
+      "from": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/plugin.js",
+      "path": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-static",
       "version": "2.2.0"
     },
     "jsonp": {
@@ -485,8 +499,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/plugin.js",
-      "path": "/Users/snail/alibaba/fms/backend/node_modules/egg-jsonp",
+      "from": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/plugin.js",
+      "path": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "view": {
@@ -496,9 +510,22 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/plugin.js",
-      "path": "/Users/snail/alibaba/fms/backend/node_modules/egg-view",
+      "from": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/plugin.js",
+      "path": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-view",
       "version": "2.1.2"
+    },
+    "io": {
+      "enable": true,
+      "package": "egg-socket.io",
+      "name": "io",
+      "dependencies": [
+        "session"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/config/plugin.js",
+      "path": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-socket.io",
+      "version": "4.1.6"
     }
   }
 }

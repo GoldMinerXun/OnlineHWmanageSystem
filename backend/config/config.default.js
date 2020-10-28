@@ -5,6 +5,19 @@
 /**
  * @param {Egg.EggAppInfo} appInfo app info
  */
+exports.io = {
+  init: {}, // passed to engine.io
+  namespace: {
+    "/": {
+      connectionMiddleware: [],
+      packetMiddleware: [],
+    },
+    "/example": {
+      connectionMiddleware: [],
+      packetMiddleware: [],
+    },
+  },
+};
 module.exports = appInfo => {
   /**
    * built-in config

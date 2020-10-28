@@ -1,294 +1,304 @@
 {
-  "keys": "/Users/snail/alibaba/fms/backend/config/config.default.js",
-  "middleware": "/Users/snail/alibaba/fms/backend/config/config.default.js",
+  "keys": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/config/config.default.js",
+  "middleware": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/config/config.default.js",
   "session": {
-    "maxAge": "/Users/snail/alibaba/fms/backend/node_modules/egg-session/config/config.default.js",
-    "key": "/Users/snail/alibaba/fms/backend/node_modules/egg-session/config/config.default.js",
-    "httpOnly": "/Users/snail/alibaba/fms/backend/node_modules/egg-session/config/config.default.js",
-    "encrypt": "/Users/snail/alibaba/fms/backend/node_modules/egg-session/config/config.default.js"
+    "maxAge": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-session/config/config.default.js"
   },
   "security": {
-    "domainWhiteList": "/Users/snail/alibaba/fms/backend/node_modules/egg-security/config/config.default.js",
-    "protocolWhiteList": "/Users/snail/alibaba/fms/backend/node_modules/egg-security/config/config.default.js",
-    "defaultMiddleware": "/Users/snail/alibaba/fms/backend/node_modules/egg-security/config/config.default.js",
+    "domainWhiteList": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-security/config/config.default.js",
     "csrf": {
-      "enable": "/Users/snail/alibaba/fms/backend/node_modules/egg-security/config/config.default.js",
-      "type": "/Users/snail/alibaba/fms/backend/node_modules/egg-security/config/config.default.js",
-      "ignoreJSON": "/Users/snail/alibaba/fms/backend/node_modules/egg-security/config/config.default.js",
-      "useSession": "/Users/snail/alibaba/fms/backend/node_modules/egg-security/config/config.default.js",
-      "cookieName": "/Users/snail/alibaba/fms/backend/node_modules/egg-security/config/config.default.js",
-      "sessionName": "/Users/snail/alibaba/fms/backend/node_modules/egg-security/config/config.default.js",
-      "headerName": "/Users/snail/alibaba/fms/backend/node_modules/egg-security/config/config.default.js",
-      "bodyName": "/Users/snail/alibaba/fms/backend/node_modules/egg-security/config/config.default.js",
-      "queryName": "/Users/snail/alibaba/fms/backend/node_modules/egg-security/config/config.default.js",
-      "refererWhiteList": "/Users/snail/alibaba/fms/backend/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-security/config/config.default.js",
+      "type": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-security/config/config.default.js"
     },
     "xframe": {
-      "enable": "/Users/snail/alibaba/fms/backend/node_modules/egg-security/config/config.default.js",
-      "value": "/Users/snail/alibaba/fms/backend/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-security/config/config.default.js"
     },
     "hsts": {
-      "enable": "/Users/snail/alibaba/fms/backend/node_modules/egg-security/config/config.local.js",
-      "maxAge": "/Users/snail/alibaba/fms/backend/node_modules/egg-security/config/config.default.js",
-      "includeSubdomains": "/Users/snail/alibaba/fms/backend/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-security/config/config.default.js"
     },
     "dta": {
-      "enable": "/Users/snail/alibaba/fms/backend/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-security/config/config.default.js"
     },
     "methodnoallow": {
-      "enable": "/Users/snail/alibaba/fms/backend/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-security/config/config.default.js"
     },
     "noopen": {
-      "enable": "/Users/snail/alibaba/fms/backend/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-security/config/config.default.js"
     },
     "nosniff": {
-      "enable": "/Users/snail/alibaba/fms/backend/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-security/config/config.default.js"
     },
     "referrerPolicy": {
-      "enable": "/Users/snail/alibaba/fms/backend/node_modules/egg-security/config/config.default.js",
-      "value": "/Users/snail/alibaba/fms/backend/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-security/config/config.default.js"
     },
     "xssProtection": {
-      "enable": "/Users/snail/alibaba/fms/backend/node_modules/egg-security/config/config.default.js",
-      "value": "/Users/snail/alibaba/fms/backend/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-security/config/config.default.js"
     },
     "csp": {
-      "enable": "/Users/snail/alibaba/fms/backend/node_modules/egg-security/config/config.default.js",
-      "policy": "/Users/snail/alibaba/fms/backend/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-security/config/config.default.js"
     },
     "ssrf": {
-      "ipBlackList": "/Users/snail/alibaba/fms/backend/node_modules/egg-security/config/config.default.js",
-      "checkAddress": "/Users/snail/alibaba/fms/backend/node_modules/egg-security/config/config.default.js"
+      "ipBlackList": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-security/config/config.default.js"
     }
   },
   "helper": {
-    "shtml": "/Users/snail/alibaba/fms/backend/node_modules/egg-security/config/config.default.js"
+    "shtml": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-security/config/config.default.js"
   },
   "jsonp": {
-    "limit": "/Users/snail/alibaba/fms/backend/node_modules/egg-jsonp/config/config.default.js",
-    "callback": "/Users/snail/alibaba/fms/backend/node_modules/egg-jsonp/config/config.default.js",
-    "csrf": "/Users/snail/alibaba/fms/backend/node_modules/egg-jsonp/config/config.default.js"
+    "limit": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-jsonp/config/config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "/Users/snail/alibaba/fms/backend/node_modules/egg-onerror/config/config.default.js",
-    "appErrorFilter": "/Users/snail/alibaba/fms/backend/node_modules/egg-onerror/config/config.default.js",
-    "templatePath": "/Users/snail/alibaba/fms/backend/node_modules/egg-onerror/config/config.default.js"
+    "errorPageUrl": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-onerror/config/config.default.js"
   },
   "i18n": {
-    "defaultLocale": "/Users/snail/alibaba/fms/backend/node_modules/egg-i18n/config/config.default.js",
-    "dirs": "/Users/snail/alibaba/fms/backend/node_modules/egg-i18n/config/config.default.js",
-    "queryField": "/Users/snail/alibaba/fms/backend/node_modules/egg-i18n/config/config.default.js",
-    "cookieField": "/Users/snail/alibaba/fms/backend/node_modules/egg-i18n/config/config.default.js",
-    "cookieDomain": "/Users/snail/alibaba/fms/backend/node_modules/egg-i18n/config/config.default.js",
-    "cookieMaxAge": "/Users/snail/alibaba/fms/backend/node_modules/egg-i18n/config/config.default.js"
+    "defaultLocale": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-i18n/config/config.default.js"
   },
   "watcher": {
-    "type": "/Users/snail/alibaba/fms/backend/node_modules/egg-watcher/config/config.local.js",
+    "type": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-watcher/config/config.local.js",
     "eventSources": {
-      "default": "/Users/snail/alibaba/fms/backend/node_modules/egg-watcher/config/config.default.js",
-      "development": "/Users/snail/alibaba/fms/backend/node_modules/egg-watcher/config/config.default.js"
+      "default": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-watcher/config/config.default.js"
     }
   },
   "customLogger": {
     "scheduleLogger": {
-      "consoleLevel": "/Users/snail/alibaba/fms/backend/node_modules/egg-schedule/config/config.default.js",
-      "file": "/Users/snail/alibaba/fms/backend/node_modules/egg-schedule/config/config.default.js"
+      "consoleLevel": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-schedule/config/config.default.js"
     }
   },
   "schedule": {
-    "directory": "/Users/snail/alibaba/fms/backend/node_modules/egg-schedule/config/config.default.js"
+    "directory": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-schedule/config/config.default.js"
   },
   "multipart": {
-    "mode": "/Users/snail/alibaba/fms/backend/node_modules/egg-multipart/config/config.default.js",
-    "autoFields": "/Users/snail/alibaba/fms/backend/node_modules/egg-multipart/config/config.default.js",
-    "defaultCharset": "/Users/snail/alibaba/fms/backend/node_modules/egg-multipart/config/config.default.js",
-    "fieldNameSize": "/Users/snail/alibaba/fms/backend/node_modules/egg-multipart/config/config.default.js",
-    "fieldSize": "/Users/snail/alibaba/fms/backend/node_modules/egg-multipart/config/config.default.js",
-    "fields": "/Users/snail/alibaba/fms/backend/node_modules/egg-multipart/config/config.default.js",
-    "fileSize": "/Users/snail/alibaba/fms/backend/node_modules/egg-multipart/config/config.default.js",
-    "files": "/Users/snail/alibaba/fms/backend/node_modules/egg-multipart/config/config.default.js",
-    "fileExtensions": "/Users/snail/alibaba/fms/backend/node_modules/egg-multipart/config/config.default.js",
-    "whitelist": "/Users/snail/alibaba/fms/backend/node_modules/egg-multipart/config/config.default.js",
-    "tmpdir": "/Users/snail/alibaba/fms/backend/node_modules/egg-multipart/config/config.default.js",
+    "mode": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-multipart/config/config.default.js",
     "cleanSchedule": {
-      "cron": "/Users/snail/alibaba/fms/backend/node_modules/egg-multipart/config/config.default.js"
+      "cron": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-multipart/config/config.default.js"
     }
   },
   "development": {
-    "watchDirs": "/Users/snail/alibaba/fms/backend/node_modules/egg-development/config/config.default.js",
-    "ignoreDirs": "/Users/snail/alibaba/fms/backend/node_modules/egg-development/config/config.default.js",
-    "fastReady": "/Users/snail/alibaba/fms/backend/node_modules/egg-development/config/config.default.js",
-    "reloadOnDebug": "/Users/snail/alibaba/fms/backend/node_modules/egg-development/config/config.default.js",
-    "overrideDefault": "/Users/snail/alibaba/fms/backend/node_modules/egg-development/config/config.default.js",
-    "overrideIgnore": "/Users/snail/alibaba/fms/backend/node_modules/egg-development/config/config.default.js"
+    "watchDirs": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-development/config/config.default.js"
   },
   "logrotator": {
-    "filesRotateByHour": "/Users/snail/alibaba/fms/backend/node_modules/egg-logrotator/config/config.default.js",
-    "hourDelimiter": "/Users/snail/alibaba/fms/backend/node_modules/egg-logrotator/config/config.default.js",
-    "filesRotateBySize": "/Users/snail/alibaba/fms/backend/node_modules/egg-logrotator/config/config.default.js",
-    "maxFileSize": "/Users/snail/alibaba/fms/backend/node_modules/egg-logrotator/config/config.default.js",
-    "maxFiles": "/Users/snail/alibaba/fms/backend/node_modules/egg-logrotator/config/config.default.js",
-    "rotateDuration": "/Users/snail/alibaba/fms/backend/node_modules/egg-logrotator/config/config.default.js",
-    "maxDays": "/Users/snail/alibaba/fms/backend/node_modules/egg-logrotator/config/config.default.js"
+    "filesRotateByHour": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-logrotator/config/config.default.js"
   },
   "static": {
-    "prefix": "/Users/snail/alibaba/fms/backend/node_modules/egg-static/config/config.default.js",
-    "dir": "/Users/snail/alibaba/fms/backend/node_modules/egg-static/config/config.default.js",
-    "dynamic": "/Users/snail/alibaba/fms/backend/node_modules/egg-static/config/config.default.js",
-    "preload": "/Users/snail/alibaba/fms/backend/node_modules/egg-static/config/config.default.js",
-    "buffer": "/Users/snail/alibaba/fms/backend/node_modules/egg-static/config/config.default.js",
-    "maxFiles": "/Users/snail/alibaba/fms/backend/node_modules/egg-static/config/config.default.js"
+    "prefix": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-static/config/config.default.js"
   },
   "view": {
-    "root": "/Users/snail/alibaba/fms/backend/node_modules/egg-view/config/config.default.js",
-    "cache": "/Users/snail/alibaba/fms/backend/node_modules/egg-view/config/config.local.js",
-    "defaultExtension": "/Users/snail/alibaba/fms/backend/node_modules/egg-view/config/config.default.js",
-    "defaultViewEngine": "/Users/snail/alibaba/fms/backend/node_modules/egg-view/config/config.default.js",
-    "mapping": "/Users/snail/alibaba/fms/backend/node_modules/egg-view/config/config.default.js"
+    "root": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-view/config/config.default.js"
   },
-  "env": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-  "name": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-  "cookies": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-  "proxy": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-  "maxIpsCount": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-  "maxProxyCount": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-  "protocolHeaders": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-  "ipHeaders": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-  "hostHeaders": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
+  "io": {
+    "init": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-socket.io/config/config.default.js",
+    "namespace": {
+      "/": {
+        "connectionMiddleware": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-socket.io/config/config.default.js",
+        "packetMiddleware": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg-socket.io/config/config.default.js"
+      }
+    }
+  },
+  "env": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+  "name": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
   "pkg": {
-    "name": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-    "version": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-    "description": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-    "private": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
+    "name": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+    "version": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+    "description": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+    "private": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
     "egg": {
-      "declarations": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js"
+      "declarations": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js"
     },
     "dependencies": {
-      "egg": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-      "egg-scripts": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js"
+      "egg": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+      "egg-socket.io": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
-      "autod": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-      "autod-egg": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-      "egg-bin": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-      "egg-ci": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-      "egg-mock": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-      "eslint": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-      "eslint-config-egg": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js"
+      "autod": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js"
     },
     "engines": {
-      "node": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js"
+      "node": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js"
     },
     "scripts": {
-      "start": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-      "stop": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-      "dev": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-      "debug": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-      "test": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-      "test-local": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-      "cov": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-      "lint": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-      "ci": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-      "autod": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js"
+      "start": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+      "stop": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+      "dev": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+      "debug": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+      "test": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+      "cov": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+      "lint": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+      "ci": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+      "autod": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js"
     },
     "ci": {
-      "version": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js"
+      "version": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js"
     },
     "repository": {
-      "type": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-      "url": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js"
+      "type": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+      "url": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js"
     },
-    "author": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-    "license": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js"
+    "author": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+    "license": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js"
   },
-  "baseDir": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-  "HOME": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-  "rundir": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
+  "baseDir": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
   "dump": {
-    "ignore": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js"
+    "ignore": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-    "notFound": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-    "sitefile": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-    "middlewares": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-    "httpClient": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js"
+    "bodyparser": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js"
   },
   "notfound": {
-    "pageUrl": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js"
+    "pageUrl": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js"
+    "/favicon.ico": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js"
   },
   "bodyParser": {
-    "enable": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-    "encoding": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-    "formLimit": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-    "jsonLimit": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-    "textLimit": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-    "strict": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
+    "enable": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+    "strict": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
     "queryString": {
-      "arrayLimit": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-      "depth": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-      "parameterLimit": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js"
+      "arrayLimit": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+      "depth": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js"
     },
-    "onerror": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js"
+    "onerror": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js"
   },
   "logger": {
-    "dir": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-    "encoding": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-    "env": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-    "level": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-    "consoleLevel": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-    "disableConsoleAfterReady": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-    "outputJSON": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-    "buffer": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-    "appLogName": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-    "coreLogName": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-    "agentLogName": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-    "errorLogName": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
+    "dir": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+    "env": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+    "level": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
     "coreLogger": {
-      "consoleLevel": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.local.js"
+      "consoleLevel": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.local.js"
     },
-    "allowDebugAtProd": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js"
+    "allowDebugAtProd": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-    "dnsCacheLookupInterval": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-    "dnsCacheMaxLength": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
+    "enableDNSCache": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
     "request": {
-      "timeout": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js"
+      "timeout": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-      "freeSocketTimeout": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-      "maxSockets": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-      "maxFreeSockets": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js"
+      "keepAlive": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-      "freeSocketTimeout": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-      "maxSockets": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-      "maxFreeSockets": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js"
+      "keepAlive": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js"
     }
   },
   "meta": {
-    "enable": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-    "logging": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js"
+    "enable": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+    "logging": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js"
   },
-  "coreMiddleware": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-  "workerStartTimeout": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-  "serverTimeout": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
+  "coreMiddleware": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
   "cluster": {
     "listen": {
-      "path": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-      "port": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-      "hostname": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js"
+      "path": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+      "port": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js"
     }
   },
   "clusterClient": {
-    "maxWaitTime": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js",
-    "responseTimeout": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js"
+    "maxWaitTime": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js"
   },
-  "onClientError": "/Users/snail/alibaba/fms/backend/node_modules/egg/config/config.default.js"
+  "onClientError": "/Users/snail/alibaba/Star/OnlineHWmanageSystem/backend/node_modules/egg/config/config.default.js"
 }
